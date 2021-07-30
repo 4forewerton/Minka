@@ -1,0 +1,113 @@
+body {
+	background: linear-gradient(-45deg, #F4D8EE, #ACCBEE);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-height: 98vh;
+}
+
+.row {
+	flex: 1;
+	order: 2;
+}
+
+.row-2 {
+	flex: 1;
+}
+
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.header .avatar {
+	margin-top: 5%;
+	Width: 162px;
+	Height: 162px;
+}
+
+h1 {
+	font-family: 'Cinzel', serif;
+	font-size: 72px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 60px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+h1 span {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 30px;
+	letter-spacing: 0em;
+	text-align: center;
+	display: block;
+}
+a {
+	text-decoration:none;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: center;
+
+}
+
+button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: none;
+	font-size: 1rem;
+	padding: 1rem 2rem;
+	cursor: pointer;
+	font-family: 'Inter', sans-serif;
+} 
+
+.border-gradient {
+	border: 10px solid;
+	border-image-slice: 1;
+	border-width: 1px;
+	border-radius: 4px;
+	border-image-source: linear-gradient(to left, #ffffff, #501241);
+}
+
+.regards {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 17px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #372E37;
+}
+
+.fa-heart {
+
+}
